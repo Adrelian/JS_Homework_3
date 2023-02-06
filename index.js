@@ -13,16 +13,16 @@
 
 // Задача 2
 
-function salary() {
-    let userSalary = parseInt(prompt("Введите вашу зарплату"))
-    if (typeof(userSalary) === Number){
-        let result = salary * 0.13 + salary
-        return console.log(`Ваша зарплата после вычета налога равна ${result}`)
-    }
-    return console.log(`Ошибка ${typeof(userSalary)}`)
-}
+// function salary() {
+//     let userSalary = parseInt(prompt("Введите вашу зарплату"))
+//     if (isFinite(userSalary) === true){
+//         let result = userSalary - userSalary * 0.13
+//         return console.log(`Ваша зарплата после вычета налога равна ${result}`)
+//     }
+//     return console.log(`Ошибка ${userSalary}`)
+// }
 
-salary()
+// salary()
 
 // Задача 3
 
